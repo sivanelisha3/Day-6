@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9707A3132301A7BC00662F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707A3122301A7BC00662F77 /* AppDelegate.swift */; };
+		9707A3152301A7BC00662F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707A3142301A7BC00662F77 /* ViewController.swift */; };
+		9707A3182301A7BC00662F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9707A3162301A7BC00662F77 /* Main.storyboard */; };
+		9707A31B2301A7BC00662F77 /* Emojional_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9707A3192301A7BC00662F77 /* Emojional_Project.xcdatamodeld */; };
+		9707A31D2301A7BE00662F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9707A31C2301A7BE00662F77 /* Assets.xcassets */; };
+		9707A3202301A7BE00662F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9707A31E2301A7BE00662F77 /* LaunchScreen.storyboard */; };
+		9707A32B2301A7BE00662F77 /* Emojional_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707A32A2301A7BE00662F77 /* Emojional_ProjectTests.swift */; };
+		9707A3362301A7BF00662F77 /* Emojional_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707A3352301A7BF00662F77 /* Emojional_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9707A3272301A7BE00662F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9707A3072301A7BC00662F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9707A30E2301A7BC00662F77;
+			remoteInfo = "Emojional-Project";
+		};
+		9707A3322301A7BF00662F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9707A3072301A7BC00662F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9707A30E2301A7BC00662F77;
+			remoteInfo = "Emojional-Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9707A30F2301A7BC00662F77 /* Emojional-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emojional-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707A3122301A7BC00662F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9707A3142301A7BC00662F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9707A3172301A7BC00662F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9707A31A2301A7BC00662F77 /* Emojional_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emojional_Project.xcdatamodel; sourceTree = "<group>"; };
+		9707A31C2301A7BE00662F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9707A31F2301A7BE00662F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9707A3212301A7BE00662F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9707A3262301A7BE00662F77 /* Emojional-ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emojional-ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707A32A2301A7BE00662F77 /* Emojional_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojional_ProjectTests.swift; sourceTree = "<group>"; };
+		9707A32C2301A7BE00662F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9707A3312301A7BE00662F77 /* Emojional-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emojional-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707A3352301A7BF00662F77 /* Emojional_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojional_ProjectUITests.swift; sourceTree = "<group>"; };
+		9707A3372301A7BF00662F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9707A30C2301A7BC00662F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707A3232301A7BE00662F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707A32E2301A7BE00662F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9707A3062301A7BC00662F77 = {
+			isa = PBXGroup;
+			children = (
+				9707A3112301A7BC00662F77 /* Emojional-Project */,
+				9707A3292301A7BE00662F77 /* Emojional-ProjectTests */,
+				9707A3342301A7BF00662F77 /* Emojional-ProjectUITests */,
+				9707A3102301A7BC00662F77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9707A3102301A7BC00662F77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9707A30F2301A7BC00662F77 /* Emojional-Project.app */,
+				9707A3262301A7BE00662F77 /* Emojional-ProjectTests.xctest */,
+				9707A3312301A7BE00662F77 /* Emojional-ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9707A3112301A7BC00662F77 /* Emojional-Project */ = {
+			isa = PBXGroup;
+			children = (
+				9707A3122301A7BC00662F77 /* AppDelegate.swift */,
+				9707A3142301A7BC00662F77 /* ViewController.swift */,
+				9707A3162301A7BC00662F77 /* Main.storyboard */,
+				9707A31C2301A7BE00662F77 /* Assets.xcassets */,
+				9707A31E2301A7BE00662F77 /* LaunchScreen.storyboard */,
+				9707A3212301A7BE00662F77 /* Info.plist */,
+				9707A3192301A7BC00662F77 /* Emojional_Project.xcdatamodeld */,
+			);
+			path = "Emojional-Project";
+			sourceTree = "<group>";
+		};
+		9707A3292301A7BE00662F77 /* Emojional-ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9707A32A2301A7BE00662F77 /* Emojional_ProjectTests.swift */,
+				9707A32C2301A7BE00662F77 /* Info.plist */,
+			);
+			path = "Emojional-ProjectTests";
+			sourceTree = "<group>";
+		};
+		9707A3342301A7BF00662F77 /* Emojional-ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9707A3352301A7BF00662F77 /* Emojional_ProjectUITests.swift */,
+				9707A3372301A7BF00662F77 /* Info.plist */,
+			);
+			path = "Emojional-ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9707A30E2301A7BC00662F77 /* Emojional-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9707A33A2301A7BF00662F77 /* Build configuration list for PBXNativeTarget "Emojional-Project" */;
+			buildPhases = (
+				9707A30B2301A7BC00662F77 /* Sources */,
+				9707A30C2301A7BC00662F77 /* Frameworks */,
+				9707A30D2301A7BC00662F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emojional-Project";
+			productName = "Emojional-Project";
+			productReference = 9707A30F2301A7BC00662F77 /* Emojional-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9707A3252301A7BE00662F77 /* Emojional-ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9707A33D2301A7BF00662F77 /* Build configuration list for PBXNativeTarget "Emojional-ProjectTests" */;
+			buildPhases = (
+				9707A3222301A7BE00662F77 /* Sources */,
+				9707A3232301A7BE00662F77 /* Frameworks */,
+				9707A3242301A7BE00662F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9707A3282301A7BE00662F77 /* PBXTargetDependency */,
+			);
+			name = "Emojional-ProjectTests";
+			productName = "Emojional-ProjectTests";
+			productReference = 9707A3262301A7BE00662F77 /* Emojional-ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9707A3302301A7BE00662F77 /* Emojional-ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9707A3402301A7BF00662F77 /* Build configuration list for PBXNativeTarget "Emojional-ProjectUITests" */;
+			buildPhases = (
+				9707A32D2301A7BE00662F77 /* Sources */,
+				9707A32E2301A7BE00662F77 /* Frameworks */,
+				9707A32F2301A7BE00662F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9707A3332301A7BF00662F77 /* PBXTargetDependency */,
+			);
+			name = "Emojional-ProjectUITests";
+			productName = "Emojional-ProjectUITests";
+			productReference = 9707A3312301A7BE00662F77 /* Emojional-ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9707A3072301A7BC00662F77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Sivan;
+				TargetAttributes = {
+					9707A30E2301A7BC00662F77 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9707A3252301A7BE00662F77 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9707A30E2301A7BC00662F77;
+					};
+					9707A3302301A7BE00662F77 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9707A30E2301A7BC00662F77;
+					};
+				};
+			};
+			buildConfigurationList = 9707A30A2301A7BC00662F77 /* Build configuration list for PBXProject "Emojional-Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9707A3062301A7BC00662F77;
+			productRefGroup = 9707A3102301A7BC00662F77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9707A30E2301A7BC00662F77 /* Emojional-Project */,
+				9707A3252301A7BE00662F77 /* Emojional-ProjectTests */,
+				9707A3302301A7BE00662F77 /* Emojional-ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9707A30D2301A7BC00662F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707A3202301A7BE00662F77 /* LaunchScreen.storyboard in Resources */,
+				9707A31D2301A7BE00662F77 /* Assets.xcassets in Resources */,
+				9707A3182301A7BC00662F77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707A3242301A7BE00662F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707A32F2301A7BE00662F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9707A30B2301A7BC00662F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707A3152301A7BC00662F77 /* ViewController.swift in Sources */,
+				9707A3132301A7BC00662F77 /* AppDelegate.swift in Sources */,
+				9707A31B2301A7BC00662F77 /* Emojional_Project.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707A3222301A7BE00662F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707A32B2301A7BE00662F77 /* Emojional_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707A32D2301A7BE00662F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707A3362301A7BF00662F77 /* Emojional_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9707A3282301A7BE00662F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9707A30E2301A7BC00662F77 /* Emojional-Project */;
+			targetProxy = 9707A3272301A7BE00662F77 /* PBXContainerItemProxy */;
+		};
+		9707A3332301A7BF00662F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9707A30E2301A7BC00662F77 /* Emojional-Project */;
+			targetProxy = 9707A3322301A7BF00662F77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9707A3162301A7BC00662F77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9707A3172301A7BC00662F77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9707A31E2301A7BE00662F77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9707A31F2301A7BE00662F77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9707A3382301A7BF00662F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9707A3392301A7BF00662F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9707A33B2301A7BF00662F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emojional-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Emojional-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9707A33C2301A7BF00662F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emojional-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Emojional-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9707A33E2301A7BF00662F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emojional-ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Emojional-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emojional-Project.app/Emojional-Project";
+			};
+			name = Debug;
+		};
+		9707A33F2301A7BF00662F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emojional-ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Emojional-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emojional-Project.app/Emojional-Project";
+			};
+			name = Release;
+		};
+		9707A3412301A7BF00662F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emojional-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Emojional-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emojional-Project";
+			};
+			name = Debug;
+		};
+		9707A3422301A7BF00662F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emojional-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Emojional-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emojional-Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9707A30A2301A7BC00662F77 /* Build configuration list for PBXProject "Emojional-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707A3382301A7BF00662F77 /* Debug */,
+				9707A3392301A7BF00662F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9707A33A2301A7BF00662F77 /* Build configuration list for PBXNativeTarget "Emojional-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707A33B2301A7BF00662F77 /* Debug */,
+				9707A33C2301A7BF00662F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9707A33D2301A7BF00662F77 /* Build configuration list for PBXNativeTarget "Emojional-ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707A33E2301A7BF00662F77 /* Debug */,
+				9707A33F2301A7BF00662F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9707A3402301A7BF00662F77 /* Build configuration list for PBXNativeTarget "Emojional-ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707A3412301A7BF00662F77 /* Debug */,
+				9707A3422301A7BF00662F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9707A3192301A7BC00662F77 /* Emojional_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9707A31A2301A7BC00662F77 /* Emojional_Project.xcdatamodel */,
+			);
+			currentVersion = 9707A31A2301A7BC00662F77 /* Emojional_Project.xcdatamodel */;
+			path = Emojional_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9707A3072301A7BC00662F77 /* Project object */;
+}
