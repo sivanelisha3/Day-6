@@ -14,6 +14,7 @@
 		9707A35D2301EAB100662F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9707A35B2301EAB100662F77 /* LaunchScreen.storyboard */; };
 		9707A3682301EAB100662F77 /* Table_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707A3672301EAB100662F77 /* Table_PracticeTests.swift */; };
 		9707A3732301EAB100662F77 /* Table_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707A3722301EAB100662F77 /* Table_PracticeUITests.swift */; };
+		9707A3812301EF6300662F77 /* ShoeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707A3802301EF6300662F77 /* ShoeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9707A36E2301EAB100662F77 /* Table-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9707A3722301EAB100662F77 /* Table_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_PracticeUITests.swift; sourceTree = "<group>"; };
 		9707A3742301EAB100662F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9707A3802301EF6300662F77 /* ShoeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9707A35B2301EAB100662F77 /* LaunchScreen.storyboard */,
 				9707A35E2301EAB100662F77 /* Info.plist */,
 				9707A3562301EAAE00662F77 /* Table_Practice.xcdatamodeld */,
+				9707A3802301EF6300662F77 /* ShoeTableViewController.swift */,
 			);
 			path = "Table-Practice";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9707A3582301EAAE00662F77 /* Table_Practice.xcdatamodeld in Sources */,
+				9707A3812301EF6300662F77 /* ShoeTableViewController.swift in Sources */,
 				9707A3502301EAAE00662F77 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
